@@ -1,0 +1,35 @@
+h1{
+    color:black;
+    text-align: center;
+    
+   
+
+
+}
+
+.foto {
+        text-align: center;
+}
+.destacado {
+    font-size: medium;
+    color: coral;
+    text-align: center;
+
+
+}
+
+.columnas{
+    font-size: medium;
+
+    column-count: 3;
+ -webkit-column-count: 3;
+ -moz-column-count: 3;
+ column-gap: 15px;
+ -webkit-column-gap: 15px;
+ -moz-column-gap: 15px;
+ column-rule: 2px solid #000000;
+ -webkit-column-rule: 2px solid #000000;
+ -moz-column-rule: 2px solid #000000;
+
+ background-color: aqua;
+}
