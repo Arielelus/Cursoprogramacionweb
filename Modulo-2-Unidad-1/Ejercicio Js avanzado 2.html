@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <title></title>
+
+    </head>
+    <body>
+        <textarea name="" id="texto" cols="30" rows="10"></textarea>
+        <div> caracteres: <span id="contar"></span></div>
+
+        <script>
+            const texto = document.getElementById ('texto');
+            const contar = document.getElementById ('contar');
+
+            texto.addEventListener ('keyup', function(){
+                contar.innerText = texto.value.length;
+
+            })
+
+        </script>
+ </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
